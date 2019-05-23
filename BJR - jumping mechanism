@@ -1,0 +1,18 @@
+BJR-Bipedal jumping robot
+pneumatic cylinders are used because they are small,light,and high power to weight ratio,it can store energy easily and reduces jumping time.
+torsion springs store energy and provide flexibility to the joints,increases the torque ouput of the joint.
+key factor behind the success of a jumping mechanism are the actuation systems whose aim should be to release high energy in a short period of time.
+To decrease the collision impact and increase the stability when landing the feet are made bigger which increases the point of contact.
+the joint joint torque output is influenced by the synergy between cylinder and the torsion spring.
+the control system structure consists of PC which is the main source of all the commands that are to be given to the robot.
+the controller receives the information from the PC and changes the solenoid valve.
+By changing the solenoid valve,the pneumatic system output and transfer power make leg extension and contraction during jumping and landing.
+Software part:-
+1) Task layer plans the overall tasks according to the obstacle and terrain information.
+2) Gesture layer sets parameters and plans trajectory.
+3) Jump layer is responsible for coordinating the actuated joints.
+4) Joint layer is responsible for extending and contracting joints.
+
+Order of opening of various joints during jumping :- knee->hip->ankle
+opening of knee joint leads to shifting of center of mass in a forward and upward direction,and ankle joint opens in the last to give the bot stability till the end and increases the jumping effeciency of the bot..
+after the take off the bot closes the joints i.e.decreases the joint angles in order to avoid collision with the obstacle.
