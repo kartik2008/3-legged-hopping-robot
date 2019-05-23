@@ -1,0 +1,10 @@
+Different mechanisms for safe landing of a robot(neglecting friction):- general info related to all the mechanisms is that the weight of the body is balanced by the spring force i.e. the legs must be able to handle the body weight of the robot.
+1) 1S leg - it doesn't have a knee and the length of the leg directly depends on the spring that is attached to string which rolled over a pulley which is actuated by a servo motor.Hence the length of the spring is controlled by the string
+2) 2SCS leg- it has a hip,knee and an ankle... the hip and knee joint are rigidly actuated and the lower leg is replaced with a spring... no pulley is present in this mechanism.
+3) 2SCJ leg - in this mechanism the hip joint is rigidly actuated(it means that the hip joint is fixed in position but the angle about the joint changes) using a motor and the knees are compliant ... a spring is connected across the hip and knee joint which is connected to a string  which rolled over a pulley which is actuated by a knee servo motor.The string controls the length of the spring.
+4) 3S leg - it has hips that are directly/rigidly actuated, and knees and ankles that are complaint.
+
+The 3S leg has a very less min acceleration because it has 2 legs to fold and increases the vertical distance ...we know that the acceleration on touching the ground is inversely proportional to the length of the leg folded.Hence stiffer springs are required in case  of 2SCJ mechanism than 3S leg mechanism. 
+In addition, the 2SCJ springs require a longer range of motion than 3S, which increases minimum size of pulley to cover the range of motion, thus leading to greater load on knee servos and less faborable leg performance compared to that of 3S.
+In case of 1S leg mechanism the entire load of balancing the weight comes on the single spring present and hence the load on the knee servo is higher ...and in order to decrease the robot's min accl to that near to the 3S leg mechanism the range of extension must be higher...hence the most cost effective system among the four mechanisms is 3S leg.
+ 
