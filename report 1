@@ -1,0 +1,13 @@
+Major components :- 
+1)Radio controller - sends signals from the user to the receiver.
+2)Receiver - receives the info/commands and sends them to the controller module.
+3)Controller module - converts the commands and the data from the user to be processed into a hopping mechanism.
+3) Hopping mechanism - it consists of 3 legs with springs which continously compresses and decompresses to provide hopping movement.
+4)Feedback- use of gyroscope in IMU sensor to give parameter values.
+  
+Mechanical parts required are :-
+1) an acrylic plastic plate required for making the triangular base.
+2) motor,motor holder, Cam is used to compress and decompress the spring ,pusher,compression spring,guide, and carbon steel pipe are required for making the leg...
+But it is not feasible for us to make legs using carbon steel and hence  we can use either aluminium rods or pvc pipes (prefered if available) of the required diameter.
+The base of the leg should have an impact attenuating substance bulging out of the leg in order to min energy loss and smooth jumping...we can use rubber or acrylic in order to perform the above task.
+Another important aspect that might take a lot of precaution is how much the springs must be compressed in order to prevent toppling of the bot.
