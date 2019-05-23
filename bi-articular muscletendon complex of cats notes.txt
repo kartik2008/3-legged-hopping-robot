@@ -1,0 +1,18 @@
+Advantage of hydraulic actuator is that it produces high force but a high energy source is required to drive it which leads to increase in size and weight of the robot and is difficult to produce instantaneous motions.
+Pneumatic cylinders are small in size but produce small output and is not suitable for precise control.
+Advantages of electric rotary motors are :- excellent conntrollability, light weight and compact size as well as low cost.
+Pantogarphic mechanism is a four bar mechanism (the bars are arranged in order to form a parralelogram).
+In the example of Cheetah Club(SLP design) a compression spring is connected along the daignol of the parralelogram of the pantographic mechanism.
+This is used for force transmission and stores some part of the energy after landing.
+ASLP design(Advanced spring loaded pantograph):- one bar is replaced with a spring.
+ASLP works more robustly than SLP.
+In the bi-articular muscletendon complex of cats design the knee joint is driven by electric rotary motor and ankle joint is kept passive and an extension spring is used in the EFLM.
+Impact/Shock from the ground reaction force must be taken into account as leads to damaging of the robot while landing.
+
+The main disadvantage of using this jumping mechanism is it's cost of manufacturing.
+The four bar linkage system is available as an actuator in the market which is quite expensive.
+
+
+Doubts:-
+1)why does backdrivability occur while using a gearbox of any reduction ratio and what is it's importance?
+2)are actuators and motors similar?
