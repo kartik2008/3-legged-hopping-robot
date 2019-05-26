@@ -1,0 +1,20 @@
+Dimensions:-
+->outer diameter of spring = 3cm
+->innner diameter of spring = 2cm 
+->Length of spring = 10cm
+->diameter of outer aluminium cylinder of leg = 1.75cm
+->diameter of inner aluminium cylinder of leg = 0.75cm
+->length of guide = 2cm
+->Inner diameter of guide = 1.75cm
+->Diameter of the pusher = diameter of spring
+->Length of leg = 10.5cm
+->Height of cam from the triangular plate = 6cm
+->Outer radius of Cam = 3.5cm
+->Inner radius of Cam  = 2cm
+->width of cam = 0.5cm
+->Length of pusher = 2+4+4+0.5-1.5 = 9cm
+->MOTOR dimensions:-
+  ->Torque = 14Nm
+  ->Rpm = 3000rad/s
+->Width of triangular sheet = 0.5cm
+
