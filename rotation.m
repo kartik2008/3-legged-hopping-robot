@@ -127,8 +127,8 @@ sprpt_1=bringback2*rotate*bringback*sprpt_1
 sprpt_2=bringback2*rotate*bringback*sprpt_2
 if t>0
     sprpt_3=bringback2*rotate*compression_3*rotate1*bringback*sprpt_3
-else 
-   sprpt_3=bringback2*rotate*bringback*sprpt_3
+%else 
+   %sprpt_3=bringback2*rotate*bringback*sprpt_3
 end
 footpt_1=bringback2*rotate*bringback*footpt_1
 footpt_2=bringback2*rotate*bringback*footpt_2
